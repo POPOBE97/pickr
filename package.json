@@ -1,6 +1,6 @@
 {
-    "name": "@simonwep/pickr",
-    "version": "1.8.2",
+    "name": "@popobe97/pickr",
+    "version": "1.8.3",
     "license": "MIT",
     "author": "Simon Reinisch <trash@reinisch.io>",
     "description": "Flat, Simple, Hackable Color-Picker.",
@@ -16,7 +16,7 @@
         "dev": "webpack serve --mode development",
         "lint": "eslint ./src",
         "lint:fix": "eslint ./src --fix",
-        "dryrun": "npm run lint:fix && npm run build"
+        "dryrun": "yarn run lint:fix && yarn run build"
     },
     "devDependencies": {
         "@babel/core": "^7.14.6",
@@ -42,13 +42,13 @@
         "webpack-dev-server": "^4.0.0-beta.3",
         "webpack-fix-style-only-entries": "^0.6.1"
     },
-    "homepage": "https://github.com/Simonwep/pickr#readme",
+    "homepage": "https://github.com/POPOBE97/pickr#readme",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Simonwep/pickr.git"
+        "url": "https://github.com/POPOBE97/pickr.git"
     },
     "bugs": {
-        "url": "https://github.com/Simonwep/pickr/issues"
+        "url": "https://github.com/POPOBE97/pickr/issues"
     },
     "dependencies": {
         "core-js": "^3.15.1",
