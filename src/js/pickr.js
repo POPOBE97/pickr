@@ -535,8 +535,14 @@ export default class Pickr {
 
             // Construct function name and call if present
             const method = `to${_root.interaction.type().getAttribute('data-type')}`;
-            _root.interaction.result.value = typeof _color[method] === 'function' ?
+            
+            if (_color === null) {
+              _root.interaction.result.value = ''
+            } else {
+              _root.interaction.result.value = typeof _color[method] === 'function' ?
                 _color[method]().toString(options.outputPrecision) : '';
+            }
+
         }
 
         // Fire listener if initialization is finish
